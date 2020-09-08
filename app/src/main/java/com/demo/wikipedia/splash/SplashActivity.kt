@@ -21,7 +21,6 @@ class SplashActivity : AppCompatActivity(),
         setContentView(R.layout.activity_splash)
         presentImp=SplashPresentImp(this)
         presentImp?.start()
-
     }
 
     override fun init() {
